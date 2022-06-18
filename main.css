@@ -1,0 +1,103 @@
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+  }
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family: monospace;
+  }
+
+  .light-theme {
+    color: #000000;
+    background: #00FF00;
+  }
+  
+
+  :root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+  }  
+
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  .btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  
+  .btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+
+
+  footer {
+    margin-top: 15px;
+    margin-left: 25px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Special Elite';
+    font-size: 16px;
+   
+}
+
+.logo-github {
+    margin-top: 10px;
+
+} 
+
+.logo-linkedin {
+    height: 32px;
+    width: 32px;
+    margin-top: 8px;
+    opacity: 50%;
+
+}       
+
+
