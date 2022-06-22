@@ -89,14 +89,18 @@ li {
 
 .logo-github {
     margin-top: 10px;
+    width: 32px;
+    height: 32px;
 
 } 
 
 .logo-linkedin {
+    margin-top: 10px;
     height: 32px;
     width: 32px;
-    margin-top: 8px;
-    opacity: 50%;
+    opacity: 75%;
+
+
 
 }       
 
